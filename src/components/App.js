@@ -10,13 +10,13 @@ const App = () => {
   return (
     <div>
        <Tooltip text={text}>
-         <button>Hover over me</button>
+         <h2 className="tooltip"><button>Hover over me</button></h2>
        </Tooltip>
        <Tooltip text={text1}>
-         <button>Hover over me to see another Tooltip</button>
+         <p className="tooltip"><button>Hover over me to see another Tooltip</button></p>
        </Tooltip>
     </div>
   )
 }
 
-export default App;
+export default App; 
